@@ -43,7 +43,6 @@ def get_prospekte(dict):
         except:
             print(f'{key}-{value} does not exist')
 
-        print(counter)
-
+        print(key)
 if __name__ == '__main__':
     get_prospekte(dict)
